@@ -1,7 +1,6 @@
 parameters:
   env: dev
 
-steps:
 - deployment: Deploy
   pool:
     vmImage: 'ubuntu-18.04'
