@@ -86,6 +86,7 @@ stages:
   jobs:
   - template: azure-deploy.yml
     parameters:
+      env: Dev
      
 
 - stage: 'Test'
