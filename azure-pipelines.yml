@@ -83,10 +83,10 @@ stages:
       succeeded(),
       eq(variables['Build.SourceBranchName'], variables['releaseBranchName'])
     )
-  jobs:
+
   - template: azure-deploy.yml
     parameters:
-      env: dev 
+     
 
 - stage: 'Test'
   displayName: 'Deploy to the test environment'

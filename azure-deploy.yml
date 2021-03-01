@@ -1,6 +1,7 @@
 parameters:
   env: dev
 
+jobs:
 - deployment: Deploy
   pool:
     vmImage: 'ubuntu-18.04'
