@@ -86,7 +86,8 @@ stages:
   jobs:
   - template: azure-deploy.yml
     parameters:
-      env: 'dev'
+      env: dev
+      appName: '$(WebAppNameDev)'
      
 
 - stage: 'Test'
